@@ -21,23 +21,27 @@ import fotografo from "../assets/banner-img.jpg"
     }
 
     div { 
-        width: 45%;
+        width: 51%;
     }
 
     h1{
-        font-size: 3rem;
+        font-size: 4rem;
         margin-top: 4rem;
         margin-bottom: 1rem;
 
         span {
             color: #E1306C;
-            font-size: 4.3rem;
+            font-size: 6rem;
         }
+    }
+
+    p {
+        font-size: 1.4rem;
     }
 
     img{
         margin-top: 2.5rem;
-        width: 45%;
+        width: 40%;
         border-radius: 86px;
     }
 </style>
