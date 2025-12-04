@@ -6,13 +6,13 @@ import Card from './Card.vue';
     <h2>Inspire-se</h2>
     <section class="inspire">
     <Card
-      imagem="https://i.pinimg.com/736x/cc/0d/37/cc0d3781240d0fbfe57194dd56898c88.jpg"
+      imagem="https://i.pinimg.com/736x/1b/d1/e4/1bd1e490c549621df6c2aa68fc28fe99.jpg"
     />
     <Card
-      imagem="https://i.pinimg.com/236x/2a/bd/f1/2abdf10d67683fc2354f5aeac3b9a69c.jpg"
+      imagem="https://i.pinimg.com/1200x/98/66/cf/9866cf7b3f353137190b0e5d7b275e7b.jpg"
     />
     <Card
-      imagem="https://www.publicdomainpictures.net/pictures/280000/nahled/night-landscape-1546338197B2k.jpg"
+      imagem="https://i.pinimg.com/1200x/5d/6b/e2/5d6be230b3a36c866fc8abe63b87dcf1.jpg"
     />
   </section>
 </template>
@@ -21,6 +21,8 @@ import Card from './Card.vue';
     .inspire, h2{
         display: flex;
         justify-content: space-between;
+        font-size: 2.5rem;
+        font-weight: normal;
         gap: 10px;
         margin: 2rem;
     }
