@@ -60,7 +60,7 @@
 
 <style scoped lang="scss">
     footer {
-        margin: 2rem;
+        margin: 7rem 3rem 7rem;
         display: flex;
         justify-content: space-between;
         height: 15rem;

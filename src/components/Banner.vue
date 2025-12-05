@@ -17,7 +17,7 @@ import fotografo from "../assets/banner-img.jpg"
     .banner{
         display: flex;
         justify-content: space-between;
-        margin: 7rem 2rem 7rem;
+        margin: 7rem 3rem 7rem;
     }
 
     div { 

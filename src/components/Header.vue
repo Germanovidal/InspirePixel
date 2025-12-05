@@ -44,7 +44,7 @@ import logo from "../assets/logo.png";
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem;
+    margin: 3rem;
     font-size: 24px;
 
     ul{
