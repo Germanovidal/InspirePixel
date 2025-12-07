@@ -23,8 +23,14 @@
 
     @media screen and (max-width: 1440px) {
         .card {
-            width: 18.188rem;
+            width: 17.5rem;
             height: 31.25rem;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        .card {
+            width: 16.5rem;
         }
     }
 </style>

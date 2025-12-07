@@ -17,7 +17,7 @@ import fotografo from "../assets/banner-img.jpg"
     .banner{
         display: flex;
         justify-content: space-between;
-        margin: 7rem 3rem 7rem;
+        margin: 5rem 3rem 7rem;
     }
 
     div { 
@@ -43,5 +43,39 @@ import fotografo from "../assets/banner-img.jpg"
         margin-top: 2.5rem;
         width: 45%;
         border-radius: 86px;
+    }
+
+    @media screen and (max-width: 1440px) {
+        div { 
+            width: 56%;
+        }
+
+        img {
+            width: 40%;
+            height: 24.886rem;
+        }
+    }
+
+    @media screen and (max-width: 1280px) {
+        div { 
+            width: 45%;
+        }
+
+        h1{
+            font-size: 3rem;
+
+            span {
+                font-size: 4rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
+        }
+
+        img {
+            width: 47%;
+            height: 23.886rem;
+        }
     }
 </style>
