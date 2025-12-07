@@ -44,7 +44,7 @@
         <a href=""><img :src=twitter alt=""></a>
     </div>
 
-    <div>
+    <div class="email">
         <h3>Assine nossa newsletter</h3>
         <ul>
             <li>
@@ -92,7 +92,7 @@
 
     .redes {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
         align-items: flex-end;
         gap: 10px;
 
@@ -101,6 +101,10 @@
             border: solid #E1306C;
             border-radius: 50%;
         }
+    }
+
+    .email {
+        width: 36.5rem;
     }
 
     .email-box {
