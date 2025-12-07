@@ -13,7 +13,7 @@ const imagens = ref([]);
   // res -> resposta da API  
   // AXIOS pegar os dados GET axios.get()
   // await == espera fi tão buscando as imagens
-  const res = await axios.get("https://picsum.photos/v2/list?page=5&limit=12");
+  const res = await axios.get("https://picsum.photos/v2/list?page=4&limit=12");
 
   imagens.value = res.data;
 
@@ -41,7 +41,7 @@ carregarImagens()
     justify-content: space-between;
     font-size: 2.5rem;
     font-weight: normal;
-    gap: 25px;
+    gap: 30px;
     margin: 3rem;
     
   }

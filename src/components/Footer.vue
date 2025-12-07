@@ -60,10 +60,15 @@
 
 <style scoped lang="scss">
     footer {
-        margin: 7rem 3rem 7rem;
+        margin: 7rem 3rem 3rem;
         display: flex;
-        justify-content: space-between;
         height: 15rem;
+        gap: 25px;
+
+        div {
+            width: 24rem;
+            line-height: 2rem;
+        }
 
         ul {
             list-style: none;
@@ -73,21 +78,48 @@
             text-decoration: none;
             color: #000000;
         }
+
+        ul li a:hover{
+            text-decoration: underline;
+        }
+
+        h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+    }
+
+    .redes {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 10px;
+
+        a img:hover {
+            background-color: #E1306C;
+            border: solid #E1306C;
+            border-radius: 50%;
+        }
     }
 
     .email-box {
         border: none;
         background-color: #E6E6E63B;
         width: 100%;
-        height: 2rem;
+        height: 3.125rem;
         padding: 1rem;
         border-radius: 5px;
+        font-size: 16px;
     }
 
     .btn {
+        margin-top: 1.25rem;
+        font-size: 16px;
+        font-weight: bold;
         color: #FFFFFF;
-        width: 8.5rem;
-        height: 2rem;
+        width: 8.875rem;
+        height: 2.5rem;
         border: none;
         background-color: #E1306C;
         border-radius: 5px;
@@ -95,7 +127,13 @@
     }
 
     .btn:hover{
-            background-color: #9d214b;
+        background-color: #9d214b;
+    }
+
+    @media screen and (max-width: 1440px) {
+        footer div {
+            width: 18.188rem;
         }
+    }
 
 </style>

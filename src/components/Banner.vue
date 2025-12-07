@@ -21,7 +21,7 @@ import fotografo from "../assets/banner-img.jpg"
     }
 
     div { 
-        width: 51%;
+        width: 39%;
     }
 
     h1{
@@ -41,7 +41,7 @@ import fotografo from "../assets/banner-img.jpg"
 
     img{
         margin-top: 2.5rem;
-        width: 40%;
+        width: 45%;
         border-radius: 86px;
     }
 </style>
