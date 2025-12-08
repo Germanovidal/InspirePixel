@@ -33,4 +33,10 @@
             width: 16.5rem;
         }
     }
+
+    @media screen and (max-width: 768px) {
+        .card {
+            width: 18.313rem;
+        }
+    }
 </style>

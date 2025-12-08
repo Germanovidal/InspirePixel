@@ -41,8 +41,7 @@ carregarImagens()
     justify-content: space-between;
     font-size: 2.5rem;
     font-weight: normal;
-    gap: 30px;
+    row-gap: 25px;
     margin: 3rem;
-    
   }
 </style>

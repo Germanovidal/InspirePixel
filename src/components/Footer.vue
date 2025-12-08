@@ -140,4 +140,28 @@
         }
     }
 
+    @media screen and (max-width: 768px) {
+        footer {
+            height: auto;
+            justify-content: space-around;
+            flex-direction: column-reverse  ;
+            align-items: center;
+            text-align: center;
+            margin: 2rem 1rem 2rem;
+        }
+
+        .redes {
+            justify-content: center;
+        }
+
+        .email-box {
+            width: 26.625rem;
+        }
+    }
+
+    @media screen and (max-width: 440px){
+        .email-box {
+            width: 20rem;
+        }
+    }
 </style>

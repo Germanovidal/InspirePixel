@@ -43,6 +43,7 @@ import fotografo from "../assets/banner-img.jpg"
         margin-top: 2.5rem;
         width: 45%;
         border-radius: 86px;
+        object-fit: cover;
     }
 
     @media screen and (max-width: 1440px) {
@@ -70,12 +71,69 @@ import fotografo from "../assets/banner-img.jpg"
         }
 
         p {
-            font-size: 1rem;
+            font-size: 1.25rem;
         }
 
         img {
             width: 47%;
             height: 23.886rem;
+        }
+    }
+
+    @media screen and (max-width: 768px) {
+        .banner{
+            flex-direction: column-reverse;
+            align-items: center;
+            text-align: center;
+        }
+
+        div { 
+            width: 100%;
+        }
+
+        h1{
+            font-size: 3.75rem;
+
+            span {
+                font-size: 5.313rem;
+            }
+        }
+
+        p {
+            font-size: 1.25rem;
+        }
+
+        img {
+            width: 30.178rem;
+            height: 23.886rem;
+        }
+    }
+
+    @media screen and (max-width: 440px) {
+        .banner{
+            margin: 3rem 1rem 4rem;
+        }
+
+        div { 
+            width: 100%;
+        }
+
+        img {
+            object-position: center;
+            width: 100%;
+            height: 23.886rem;
+        }
+
+        h1{
+            font-size: 2.2rem;
+
+            span {
+                font-size: 3.1rem;
+            }
+        }
+
+        p {
+            font-size: 1rem;
         }
     }
 </style>
